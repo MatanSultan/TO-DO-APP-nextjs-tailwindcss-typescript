@@ -61,10 +61,10 @@ export default function Home() {
         </div>
             <Input
                 placeholder='Item Name'
-                className="mt-5 bg-gray-900 text-white border-2 border-white focus:outline-none focus:border-green-600"
+                className="mt-5 bg-gray-900 text-white border-2 border-white focus:outline-none focus:border-green-600 "
                
                 value={Item}
-                color="black"
+                color="white"
                 onChange={(e) => {
                     setItem(e.target.value)
                 }}>
